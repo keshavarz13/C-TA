@@ -32,8 +32,8 @@
 //-----------------------------------------
 // #include <stdio.h>
 // void main(void){
-//     int i, j ;
-//     for(i = 0; i < 10; printf("slm : "), printf("%d\n",i) ,  i++) ;
+//     int i , j ;
+//     for(i = 0; i < 10; printf("slm : "), printf("%d\n",i) , j=2,  i++) ;
 // }
 
 
@@ -65,6 +65,25 @@
 // 		printf("\n");
 // 	}
 // }
+
+
+/* Function declaration */
+// void my_info(void);
+
+// int main(void){
+// 	printf("This is my info");
+// 	my_info(); /* Function call */
+// 	printf("=============");
+// 	return 0;
+// }
+
+// /* Function definition */
+// void my_info(void){
+// 	printf("Student name is Dennis Ritchie\n");
+// 	printf("Student number: 9822222\n");
+// }
+
+
 	
 
 
