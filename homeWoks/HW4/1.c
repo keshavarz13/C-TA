@@ -1,7 +1,8 @@
 #include <stdio.h>
-long int n, m, i, j, t, max, s, c;
+
 int main()
 {
+	long int n, m, i, j, t, max, s, c;
 	scanf("%ld", &n);
 	long int x[n], y[n];
 	for (i=0; i<n; i++)	
@@ -19,7 +20,6 @@ int main()
 				for (t=0; t<n; t++)
 					if ((x[t]*m + c) == y[t])
                     	s++;
-			}
 			else
 			{
 				for (t=0; t<n; t++)
